@@ -11,11 +11,11 @@ public class Ej14 {
         int contadorCinco = 0;
         int contadorSeis = 0;
         
-        Random rnd = new Random();
+        Random aleatorio = new Random();
         int totalLanzamientos = 1000000;
 
         for (int i = 0; i < totalLanzamientos; i++) {
-            dado = rnd.nextInt(6) + 1;
+            dado = aleatorio.nextInt(6) + 1;
 
             switch (dado) {
                 case 1:
