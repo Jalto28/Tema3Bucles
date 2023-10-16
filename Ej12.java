@@ -31,5 +31,6 @@ public class Ej12 {
         }
 
         System.out.println("No has adivinado el número. Has agotado tus intentos. El número era: " + numeroAdivinar);
+        teclado.close();
     }
 }
