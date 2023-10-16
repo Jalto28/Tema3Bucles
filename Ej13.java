@@ -29,5 +29,7 @@ public class Ej13 {
         // Mostrar resultados
         System.out.println("Porcentaje de caras: " + porcentajeCaras + "%");
         System.out.println("Porcentaje de cruces: " + porcentajeCruces + "%");
+
+        teclado.close();
     }
 }
