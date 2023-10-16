@@ -27,5 +27,6 @@ public class Ej11 {
         } else {
             System.out.println("No se introdujeron números para calcular la media.");
         }
+        teclado.close();
     }
 }
