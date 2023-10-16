@@ -30,4 +30,5 @@ public class Ej15 {
                (minutos >= 0 && minutos < 60) &&
                (segundos >= 0 && segundos < 60);
     }
+    teclado.close();
 }
