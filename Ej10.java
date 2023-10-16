@@ -18,6 +18,6 @@ public class Ej10 {
 
         System.out.println("La suma de los números introducidos es: " + suma);
 		
-		teclado.close();
+	teclado.close();
     }
 }
